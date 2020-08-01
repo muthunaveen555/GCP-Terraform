@@ -1,2 +1,0 @@
-Hi this is sample txt file for git repository!
-i add some additional code
