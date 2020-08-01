@@ -1,2 +1,4 @@
 ignoredfile.txt
 GCP-Assignment-be9389717b0e.json
+\terraformed-gcp\dev\terraform.tfstate
+\terraformed-gcp\dev\terraform.tfstate.backup
