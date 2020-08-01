@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"my-instance","Source":"../modules/gce","Dir":"../modules/gce"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"my-instance","Source":"../modules/gce","Dir":"../modules/gce"},{"Key":"my-bucket","Source":"../modules/gcs","Dir":"../modules/gcs"}]}
