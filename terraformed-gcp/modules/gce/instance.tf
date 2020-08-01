@@ -4,7 +4,7 @@ resource "google_compute_instance" "main-instance" {
   machine_type = var.main-machine-type
   zone         = var.main-zone
   project      = var.project-name
-  tags         = ["foo", "bar"]
+  tags         = ["foo", "bar", "nava"]
 
   boot_disk {
     initialize_params {
