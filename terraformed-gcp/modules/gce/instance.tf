@@ -4,7 +4,7 @@ resource "google_compute_instance" "main-instance" {
   machine_type = var.main-machine-type
   zone         = var.main-zone
   project      = var.project-name
-  tags         = ["foo", "bar", "nava"]
+  #tags         = ["foo", "bar", "nava"]
 
   boot_disk {
     initialize_params {
@@ -16,7 +16,8 @@ resource "google_compute_instance" "main-instance" {
     interface = "SCSI"
   }
   network_interface {
-    network = "default"
+    network    = "vpc-network"
+    subnetwork = "test-subnetwork"
     access_config {
       // Ephemeral IP
     }

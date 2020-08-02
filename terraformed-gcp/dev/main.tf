@@ -1,3 +1,7 @@
+module "my-main-vpc" {
+  source = "../modules/vpc"
+}
+
 module "my-instance" {
   source             = "../modules/gce"
   main-instance-name = "nava-terraform-instance"
