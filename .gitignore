@@ -1,4 +1,7 @@
 ignoredfile.txt
+important-commands.txt
 GCP-Assignment-be9389717b0e.json
-\terraformed-gcp\dev\terraform.tfstate
-\terraformed-gcp\dev\terraform.tfstate.backup
+terraformed-gcp/dev/terraform.tfstate
+terraformed-gcp/dev/terraform.tfstate.backup
+terraformed-gcp/dev/graph.svg
+terraformed-gcp/dev/.terraform/

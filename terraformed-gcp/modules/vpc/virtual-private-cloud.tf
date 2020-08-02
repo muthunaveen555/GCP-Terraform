@@ -4,7 +4,7 @@ resource "google_compute_network" "my-vpc" {
 }
 
 resource "google_compute_subnetwork" "my-subnet1" {
-  depends_on    = ["google_compute_network.my-vpc"]
+  depends_on    = [google_compute_network.my-vpc]
   name          = "test-subnetwork"
   ip_cidr_range = "10.2.0.0/16"
   region        = "us-central1"
@@ -15,7 +15,7 @@ resource "google_compute_subnetwork" "my-subnet1" {
   }
 }
 resource "google_compute_firewall" "my-firewall" {
-  depends_on = ["google_compute_network.my-vpc"]
+  depends_on = [google_compute_network.my-vpc]
   name       = "test-firewall"
   network    = "vpc-network"
 
