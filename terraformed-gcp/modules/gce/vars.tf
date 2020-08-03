@@ -16,3 +16,9 @@ variable "main-instance-image" {
   type    = string
   default = "debian-cloud/debian-9"
 }
+variable "network-name" {
+  type = string
+}
+variable "subnetwork-name" {
+  type = string
+}

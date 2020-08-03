@@ -16,8 +16,8 @@ resource "google_compute_instance" "main-instance" {
     interface = "SCSI"
   }
   network_interface {
-    network    = "vpc-network"
-    subnetwork = "test-subnetwork"
+    network    = var.network-name
+    subnetwork = var.subnetwork-name
     access_config {
       // Ephemeral IP
     }
