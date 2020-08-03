@@ -1,0 +1,7 @@
+vpc-name: NAVEEN-TERRAFORM-VPC
+cidr: 10.0.0.0/16
+subnets: 1 public (10.0.1.0/24) 1 private (10.0.2.0/24) in different availability_zone
+Internet gateway: 1
+NAT gateway: 1
+route table: 1
+security Group: one webserver(public) and one db server(private)
