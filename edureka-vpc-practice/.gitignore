@@ -1,5 +1,0 @@
-provider.tf
-plan.json
-terraform.tfstate
-terraform.tfstate.backup
-.terraform/
